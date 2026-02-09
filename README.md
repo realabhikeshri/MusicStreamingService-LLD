@@ -2,33 +2,6 @@
 
 A C# music streaming service implemented using a layered architecture with clear separation of domain, infrastructure, application logic, and execution.
 
----
-
-## Structure
-
-MusicStreamingService/
-├── src/
-│ ├── MusicStreamingService.Core
-│ ├── MusicStreamingService.Infrastructure
-│ ├── MusicStreamingService.Services
-│ └── MusicStreamingService.App
-
----
-
-## Architecture
-
-Core
-↑
-Infrastructure
-↑
-Services
-↑
-App
-
-
-Dependencies flow inward with no circular references.
-
----
 
 ## Layers
 
