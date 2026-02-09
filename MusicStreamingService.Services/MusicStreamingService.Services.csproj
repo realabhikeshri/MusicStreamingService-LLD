@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicStreamingService.Core\MusicStreamingService.Core.csproj" />
+    <ProjectReference Include="..\MusicStreamingService.Infrastructure\MusicStreamingService.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

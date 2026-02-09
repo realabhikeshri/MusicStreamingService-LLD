@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStreamingService-LLD", "MusicStreamingService-LLD\MusicStreamingService-LLD.csproj", "{DEB2F64D-3EA5-4AF0-B9E8-442B4DE89E15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStreamingService.App", "MusicStreamingService-LLD\MusicStreamingService.App.csproj", "{DEB2F64D-3EA5-4AF0-B9E8-442B4DE89E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStreamingService.Core", "MusicStreamingService.Core\MusicStreamingService.Core.csproj", "{5339DF49-A695-4AB3-BF17-ED8CA29EE37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStreamingService.Services", "MusicStreamingService.Services\MusicStreamingService.Services.csproj", "{0C94D696-B84C-4FED-9627-794919D74F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStreamingService.Infrastructure", "MusicStreamingService.Infrastructure\MusicStreamingService.Infrastructure.csproj", "{00AE34B1-9469-4864-840F-C145FB40C5FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{DEB2F64D-3EA5-4AF0-B9E8-442B4DE89E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEB2F64D-3EA5-4AF0-B9E8-442B4DE89E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEB2F64D-3EA5-4AF0-B9E8-442B4DE89E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5339DF49-A695-4AB3-BF17-ED8CA29EE37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5339DF49-A695-4AB3-BF17-ED8CA29EE37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5339DF49-A695-4AB3-BF17-ED8CA29EE37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5339DF49-A695-4AB3-BF17-ED8CA29EE37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C94D696-B84C-4FED-9627-794919D74F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C94D696-B84C-4FED-9627-794919D74F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C94D696-B84C-4FED-9627-794919D74F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C94D696-B84C-4FED-9627-794919D74F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00AE34B1-9469-4864-840F-C145FB40C5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AE34B1-9469-4864-840F-C145FB40C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AE34B1-9469-4864-840F-C145FB40C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AE34B1-9469-4864-840F-C145FB40C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

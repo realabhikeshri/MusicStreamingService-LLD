@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>MusicStreamingService_LLD</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicStreamingService.Core\MusicStreamingService.Core.csproj" />
+    <ProjectReference Include="..\MusicStreamingService.Infrastructure\MusicStreamingService.Infrastructure.csproj" />
+    <ProjectReference Include="..\MusicStreamingService.Services\MusicStreamingService.Services.csproj" />
+  </ItemGroup>
+
+</Project>
